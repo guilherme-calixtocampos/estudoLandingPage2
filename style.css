@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.landing {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing__conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 15%;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+.titulo {
+    font-size: 26px;
+    font-family: 'Krona one' , sans-serif ;
+    text-align: center;
+    margin: 5%;
+}
+
+.subtitulo {
+    font-size: 18px;
+    font-family: 'Krona one' , sans-serif ;
+}
+
+.paragrafo {
+    font-size: 13px;
+    font-family: 'Krona one' , sans-serif ;
+}
+
+.lista {
+    font-size: 13px;
+    font-family: 'Krona one' , sans-serif ;
+}
+
+.foto__esquerdo , .foto__direito {
+    width: 10%;
+}
+
+.landing2 {
+    gap: 10px;
+}
+
+.botao {
+    font-size: 22px;
+    font-family: 'Krona one' , sans-serif ;
+    text-align: center;
+    padding: 28px;
+    margin: 41.5%;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid darkgray;
+    padding: 2%;
+    margin: 5%;
+    gap: 20px;
+    font-family: 'Krona one' , sans-serif;
+    font-size: 15px;
+}
